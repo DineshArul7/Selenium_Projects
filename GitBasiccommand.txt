@@ -1,0 +1,23 @@
+Git Commit commands
+
+
+git config --global user.name "DineshArul7"
+git config --global user.email "dinesh.ak37@gmail.com"
+
+
+git init
+
+git add *
+
+git commit -m "Commit message"
+
+git remote add origin https://github.com/DineshArul7/Selenium_Projects.git
+git push -u origin main
+
+echo "# RestAssured_Projects" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/DineshArul7/RestAssured_Projects.git
+git push -u origin main
